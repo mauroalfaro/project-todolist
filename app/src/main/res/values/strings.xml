@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Project To-doList</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Mauro Alfaro</string>
+    <string name="nav_header_subtitle">mauroalfaroo@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_general">Vista general</string>
+    <string name="menu_today">Hoy</string>
+    <string name="menu_thisweek">Esta semana</string>
+    <string name="menu_tags">Etiquetas</string>
+    <string name="menu_settings">Configuración</string>
+
+    <string name="home_second">Home Second</string>
+</resources>
