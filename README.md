@@ -1,2 +1,3 @@
 # project-todolist
-An Android todo-list app
+A general use todo-list app for Android
+
