@@ -1,16 +1,16 @@
-package com.example.project2020.ui.home;
+package com.example.project2020.ui.thisweek;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class HomeViewModel extends ViewModel {
+public class ThisWeekViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public HomeViewModel() {
+    public ThisWeekViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is home fragment");
+        mText.setValue("This is This Week fragment");
     }
 
     public LiveData<String> getText() {

@@ -7,9 +7,9 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.example.project2020.ui.home.HomeFragment"
+        android:name="com.example.project2020.ui.general.GeneralFragment"
         android:label="@string/menu_general"
-        tools:layout="@layout/fragment_home">
+        tools:layout="@layout/fragment_general">
 
         <action
             android:id="@+id/action_HomeFragment_to_HomeSecondFragment"
@@ -17,7 +17,7 @@
     </fragment>
     <fragment
         android:id="@+id/nav_home_second"
-        android:name="com.example.project2020.ui.home.HomeSecondFragment"
+        android:name="com.example.project2020.ui.general.HomeSecondFragment"
         android:label="@string/home_second"
         tools:layout="@layout/fragment_home_second">
         <action
@@ -31,31 +31,31 @@
 
     <fragment
         android:id="@+id/nav_general"
-        android:name="com.example.project2020.ui.gallery.GalleryFragment"
+        android:name="com.example.project2020.ui.general.GeneralFragment"
         android:label="@string/menu_general"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_general" />
 
     <fragment
         android:id="@+id/nav_today"
-        android:name="com.example.project2020.ui.slideshow.SlideshowFragment"
+        android:name="com.example.project2020.ui.today.TodayFragment"
         android:label="@string/menu_today"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_today" />
 
     <fragment
         android:id="@+id/nav_thisweek"
-        android:name="com.example.project2020.ui.slideshow.SlideshowFragment"
+        android:name="com.example.project2020.ui.thisweek.ThisWeekFragment"
         android:label="@string/menu_thisweek"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_thisweek" />
 
     <fragment
         android:id="@+id/nav_tags"
-        android:name="com.example.project2020.ui.slideshow.SlideshowFragment"
+        android:name="com.example.project2020.ui.tags.TagsFragment"
         android:label="@string/menu_tags"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_tags" />
 
     <fragment
         android:id="@+id/nav_settings"
-        android:name="com.example.project2020.ui.slideshow.SlideshowFragment"
+        android:name="com.example.project2020.ui.settings.SettingsFragment"
         android:label="@string/menu_settings"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_settings" />
 </navigation>

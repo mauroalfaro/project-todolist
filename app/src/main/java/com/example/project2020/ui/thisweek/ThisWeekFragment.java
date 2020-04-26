@@ -1,4 +1,4 @@
-package com.example.project2020.ui.gallery;
+package com.example.project2020.ui.thisweek;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,17 +14,17 @@ import androidx.lifecycle.ViewModelProviders;
 
 import com.example.project2020.R;
 
-public class GalleryFragment extends Fragment {
+public class ThisWeekFragment extends Fragment {
 
-    private GalleryViewModel galleryViewModel;
+    private ThisWeekViewModel thisWeekViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        galleryViewModel =
-                ViewModelProviders.of(this).get(GalleryViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_gallery, container, false);
-        final TextView textView = root.findViewById(R.id.text_gallery);
-        galleryViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
+        thisWeekViewModel =
+                ViewModelProviders.of(this).get(ThisWeekViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_thisweek, container, false);
+        final TextView textView = root.findViewById(R.id.text_thisweek);
+        thisWeekViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);
