@@ -1,16 +1,23 @@
 package com.example.project2020.ui.settings;
 
+import android.app.Application;
+
+import androidx.annotation.NonNull;
+import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class SettingsViewModel extends ViewModel {
+import com.example.project2020.R;
+
+public class SettingsViewModel extends AndroidViewModel {
 
     private MutableLiveData<String> mText;
 
-    public SettingsViewModel() {
+    public SettingsViewModel(@NonNull Application application) {
+        super(application);
         mText = new MutableLiveData<>();
-        mText.setValue("This is Settings fragment");
+        mText.setValue(getApplication().getString(R.string.settings_fragment_default));
     }
 
     public LiveData<String> getText() {

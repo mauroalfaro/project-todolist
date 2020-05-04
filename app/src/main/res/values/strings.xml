@@ -5,13 +5,19 @@
     <string name="nav_header_title">Mauro Alfaro</string>
     <string name="nav_header_subtitle">mauroalfaroo@gmail.com</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_notifications">Notificaciones</string>
 
     <string name="menu_general">Vista general</string>
     <string name="menu_today">Hoy</string>
     <string name="menu_thisweek">Esta semana</string>
     <string name="menu_tags">Etiquetas</string>
     <string name="menu_settings">Configuración</string>
+
+    <string name="general_fragment_default">No se han añadido tareas aún</string>
+    <string name="today_fragment_default">No hay tareas pendientes para hoy</string>
+    <string name="thisweek_fragment_default">No hay tareas pendientes esta semana</string>
+    <string name="tags_fragment_default">No se han creado etiquetas</string>
+    <string name="settings_fragment_default">Configuración</string>
 
     <string name="home_second">Home Second</string>
 </resources>

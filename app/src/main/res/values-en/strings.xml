@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Project To-doList</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Mauro Alfaro</string>
+    <string name="nav_header_subtitle">mauroalfaroo@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_notifications">Notifications</string>
+
+    <string name="menu_general">General view</string>
+    <string name="menu_today">Today</string>
+    <string name="menu_thisweek">This week</string>
+    <string name="menu_tags">Tags</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="general_fragment_default">You haven\'t added any task yet</string>
+    <string name="today_fragment_default">No pending tasks for today</string>
+    <string name="thisweek_fragment_default">No pending tasks for this week</string>
+    <string name="tags_fragment_default">You haven\'t added any tags yet</string>
+    <string name="settings_fragment_default">Settings</string>
+
+    <string name="home_second">Home Second</string>
+</resources>
