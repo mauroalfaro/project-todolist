@@ -2,7 +2,13 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
+        android:id="@+id/action_select"
+        android:orderInCategory="100"
+        android:title="@string/action_select"
+        app:showAsAction="never" />
+    <item
         android:id="@+id/action_notifications"
+        android:onClick="openNotificationsActivity"
         android:orderInCategory="100"
         android:title="@string/action_notifications"
         app:showAsAction="never" />

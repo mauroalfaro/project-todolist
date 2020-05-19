@@ -1,9 +1,12 @@
 package com.example.project2020;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.Menu;
 
+import com.example.project2020.ui.AddTaskActivity;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
@@ -30,8 +33,8 @@ import androidx.appcompat.widget.Toolbar;
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Add to-do here", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                Intent intent = new Intent(MainActivity.this, AddTaskActivity.class);
+                startActivity(intent);
             }
         });
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
@@ -60,4 +63,9 @@ import androidx.appcompat.widget.Toolbar;
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
     }
+
+        public void openNotificationsActivity(MenuItem menuItem) {
+            Intent intent = new Intent(this, NotificationsActivity.class);
+             startActivity(intent);
+        }
 }

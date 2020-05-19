@@ -6,6 +6,7 @@
     <string name="nav_header_subtitle">mauroalfaroo@gmail.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_notifications">Notifications</string>
+    <string name="action_select">Select</string>
 
     <string name="menu_general">General view</string>
     <string name="menu_today">Today</string>
@@ -20,4 +21,7 @@
     <string name="settings_fragment_default">Settings</string>
 
     <string name="home_second">Home Second</string>
+
+    <string name="title_activity_notifications">Notifications</string>
+    <string name="title_activity_addtask">Add task</string>
 </resources>
