@@ -1,10 +1,12 @@
-package com.example.project2020;
+package com.example.project2020.ui;
 
 import android.os.Bundle;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.preference.PreferenceFragmentCompat;
+
+import com.example.project2020.R;
 
 public class NotificationsActivity extends AppCompatActivity {
 

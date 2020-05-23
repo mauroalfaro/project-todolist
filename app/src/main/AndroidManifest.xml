@@ -9,10 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.AddTaskActivity"
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:label="@string/title_activity_login"></activity>
+        <activity
+            android:name=".ui.AddTaskActivity"
             android:label="@string/title_activity_addtask" />
         <activity
-            android:name=".NotificationsActivity"
+            android:name=".ui.NotificationsActivity"
             android:label="@string/title_activity_notifications" />
         <activity
             android:name=".MainActivity"
