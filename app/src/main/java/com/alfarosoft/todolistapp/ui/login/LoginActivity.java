@@ -27,6 +27,8 @@ import com.alfarosoft.todolistapp.R;
 public class LoginActivity extends AppCompatActivity {
 
     private LoginViewModel loginViewModel;
+    private TextView textViewLogin;
+    private String existentUserName;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -39,6 +41,7 @@ public class LoginActivity extends AppCompatActivity {
         final EditText passwordEditText = findViewById(R.id.password);
         final Button loginButton = findViewById(R.id.login);
         final ProgressBar loadingProgressBar = findViewById(R.id.loading);
+        textViewLogin = findViewById(R.id.textViewLogin);
 
         loginViewModel.getLoginFormState().observe(this, new Observer<LoginFormState>() {
             @Override
@@ -115,12 +118,14 @@ public class LoginActivity extends AppCompatActivity {
                         passwordEditText.getText().toString());
             }
         });
+        this.existentUserName = usernameEditText.getText().toString();
     }
 
     private void updateUiWithUser(LoggedInUserView model) {
         String welcome = getString(R.string.welcome) + model.getDisplayName();
         // TODO : initiate successful logged in experience
         Toast.makeText(getApplicationContext(), welcome, Toast.LENGTH_LONG).show();
+        //textViewLogin.setText(existentUserName);
     }
 
     private void showLoginFailed(@StringRes Integer errorString) {

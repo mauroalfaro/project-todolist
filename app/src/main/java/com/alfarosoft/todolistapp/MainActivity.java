@@ -5,9 +5,11 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.Menu;
+import android.widget.TextView;
 
 import com.alfarosoft.todolistapp.ui.AddTaskActivity;
 import com.alfarosoft.todolistapp.ui.NotificationsActivity;
+import com.alfarosoft.todolistapp.ui.login.LoginActivity;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationView;
 
@@ -19,7 +21,7 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-    public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
         private AppBarConfiguration mAppBarConfiguration;
 
@@ -64,8 +66,14 @@ import androidx.appcompat.widget.Toolbar;
                 || super.onSupportNavigateUp();
     }
 
-        public void openNotificationsActivity(MenuItem menuItem) {
-            Intent intent = new Intent(this, NotificationsActivity.class);
-             startActivity(intent);
-        }
+    public void openNotificationsActivity(MenuItem menuItem) {
+        Intent intent = new Intent(this, NotificationsActivity.class);
+        startActivity(intent);
+    }
+
+    public void openLoginActivity(View view) {
+        Intent intent = new Intent(this, LoginActivity.class);
+        startActivity(intent);
+    }
 }
+
