@@ -7,6 +7,10 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_notifications">Notificaciones</string>
     <string name="action_select">Seleccionar</string>
+    <string name="text_save">Guardar</string>
+    <string name="hint_task_name">Nombre de la tarea</string>
+    <string name="hint_task_desc">Descripción de la tarea</string>
+
 
     <string name="menu_general">Vista general</string>
     <string name="menu_today">Hoy</string>
