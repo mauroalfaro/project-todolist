@@ -1,8 +1,9 @@
-package com.alfarosoft.todolistapp.data;
+package com.alfarosoft.todolistapp.data.login;
 
 import android.widget.EditText;
 
 import com.alfarosoft.todolistapp.R;
+import com.alfarosoft.todolistapp.data.Result;
 import com.alfarosoft.todolistapp.data.model.LoggedInUser;
 
 import java.io.IOException;

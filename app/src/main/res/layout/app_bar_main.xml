@@ -33,6 +33,7 @@
         android:background="@color/design_default_color_primary_dark"
         app:layout_anchor="@+id/appBarLayout"
         app:layout_anchorGravity="center"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:popupTheme="@style/AppTheme.PopupOverlay" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

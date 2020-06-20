@@ -6,7 +6,7 @@ import androidx.lifecycle.ViewModel;
 
 import android.util.Patterns;
 
-import com.alfarosoft.todolistapp.data.LoginRepository;
+import com.alfarosoft.todolistapp.data.login.LoginRepository;
 import com.alfarosoft.todolistapp.data.Result;
 import com.alfarosoft.todolistapp.data.model.LoggedInUser;
 import com.alfarosoft.todolistapp.R;

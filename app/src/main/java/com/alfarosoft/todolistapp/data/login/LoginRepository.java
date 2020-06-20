@@ -1,5 +1,6 @@
-package com.alfarosoft.todolistapp.data;
+package com.alfarosoft.todolistapp.data.login;
 
+import com.alfarosoft.todolistapp.data.Result;
 import com.alfarosoft.todolistapp.data.model.LoggedInUser;
 
 /**

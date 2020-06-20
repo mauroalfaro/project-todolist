@@ -4,8 +4,8 @@ import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.annotation.NonNull;
 
-import com.alfarosoft.todolistapp.data.LoginDataSource;
-import com.alfarosoft.todolistapp.data.LoginRepository;
+import com.alfarosoft.todolistapp.data.login.LoginDataSource;
+import com.alfarosoft.todolistapp.data.login.LoginRepository;
 
 /**
  * ViewModel provider factory to instantiate LoginViewModel.
