@@ -2,8 +2,7 @@
     <string name="app_name">Project To-doList</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Usuario desconocido</string>
-    <string name="nav_header_subtitle">Toque aquí para iniciar sesión</string>
+    <string name="nav_header_title">Toque aquí para iniciar sesión</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_notifications">Notificaciones</string>
     <string name="action_select">Seleccionar</string>
@@ -12,7 +11,7 @@
     <string name="hint_task_desc">Descripción de la tarea</string>
 
 
-    <string name="menu_general">Vista general</string>
+    <string name="menu_general">Tareas</string>
     <string name="menu_today">Hoy</string>
     <string name="menu_thisweek">Esta semana</string>
     <string name="menu_tags">Etiquetas</string>

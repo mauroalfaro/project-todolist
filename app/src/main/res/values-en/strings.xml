@@ -2,8 +2,7 @@
     <string name="app_name">Project To-doList</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Unknown user</string>
-    <string name="nav_header_subtitle">Sign in here.</string>
+    <string name="nav_header_title">Sign in here.</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_notifications">Notifications</string>
     <string name="action_select">Select</string>
@@ -11,7 +10,7 @@
     <string name="hint_task_name">Task name</string>
     <string name="hint_task_desc">Task description</string>
 
-    <string name="menu_general">General view</string>
+    <string name="menu_general">Tasks</string>
     <string name="menu_today">Today</string>
     <string name="menu_thisweek">This week</string>
     <string name="menu_tags">Tags</string>
